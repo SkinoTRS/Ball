@@ -1,0 +1,1 @@
+local v0=workspace:FindFirstChild("TPSSystem");local v1=v0 and v0:FindFirstChild("TPS") ;if v1 then for v5,v6 in ipairs(v1:GetDescendants()) do if v6:IsA("NoCollisionConstraint") then v6:Destroy();end end v1.CanCollide=true;v1.CanQuery=true;v1.CanTouch=true;else end
